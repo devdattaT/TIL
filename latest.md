@@ -20,3 +20,23 @@
 
 - How to Create Key:
   ssh-keygen -t rsa -b 4096 -C "email@example.com"
+
+- How to install php7.1 on Ubuntu Server:
+
+  From [Link](https://ayesh.me/Ubuntu-PHP-7.1)
+
+  - Add PPA:
+
+    `sudo add-apt-repository ppa:ondrej/php`
+
+  - Update apt
+
+    `sudo apt update`
+
+  - Install PHP core:
+
+    `sudo apt-get install php7.1 php7.1-common`
+
+  - Install others:
+
+    `sudo apt-get install php7.1-curl php7.1-xml php7.1-zip php7.1-mbstring`
